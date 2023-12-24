@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+    body {
+      padding: 4.625rem 1.5rem 8.125rem;
+      position: relative;
+    }
+  
+    main {
+      grid-template-columns: 1fr;
+      row-gap: 40px;
+    }
+  
+    .left-section {
+      margin-block-start: 0px;
+    }
+  
+    .left-section h1 {
+      margin-block: 1.25rem 0.75rem;
+      font-size: 1.875rem;
+      line-height: normal;
+    }
+  
+    .desktop_text {
+      display: none;
+    }
+  
+    .mobile_text {
+      display: block;
+    }
+  
+    .right-section {
+      padding: 1.5rem 1rem 1.875rem;
+    }
+  
+    .columns_2 {
+      grid-template-columns: 1fr;
+  
+      & input {
+        width: 100%;
+      }
+    }
+  
+    button {
+      margin-block-end: 0px;
+    }
+  
+    .terms {
+      position: absolute;
+      bottom: 64px;
+      width: 19.75rem;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
